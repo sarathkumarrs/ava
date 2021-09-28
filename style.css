@@ -1,0 +1,113 @@
+ul,
+li {
+  list-style: none !important;
+}
+
+header {
+  background-color: #4b97e5;
+}
+
+nav {
+  background-color: #4b97e5;
+  padding: 10px 0 !important;
+}
+
+ul.navbar-nav li a {
+  color: white !important;
+  font-size: 25px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none !important;
+}
+.navbar-light .navbar-brand {
+  margin-left: -18px;
+}
+
+#spotlightleft {
+  padding-top: 127px !important;
+}
+#spotlightleft p {
+  margin: 20px 0;
+}
+.button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+#benifits h2 {
+  text-align: center;
+}
+
+.benmid {
+  margin: auto 0 !important;
+}
+
+#whoshould {
+  background-color: #4b97e5;
+  color: white;
+}
+
+.card {
+  border: none !important;
+  margin: auto !important;
+}
+/* .card:hover {
+  width: 19rem !important;
+  transition: 0.4s;
+  overflow: hidden;
+} */
+
+footer {
+  background-color: #4b97e5;
+  color: #fff;
+  padding: 30px;
+}
+
+footer ul li {
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1px;
+  margin-right: 5px;
+}
+
+footer ul li img {
+  padding: 2px;
+}
+
+#social li {
+  padding: 6px 18px;
+  background-color: #fff;
+}
+#social li a {
+  color: blue;
+}
+#spotlightleft h1 {
+  font-size: 45px !important;
+}
+
+@media (max-width: 980px) {
+  #reverse {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+  #spotlightleft {
+    padding: 8px !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 465px) {
+  #spotlightleft h1 {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 390px) {
+  #contpriv li a {
+    font-size: 13px;
+  }
+}
