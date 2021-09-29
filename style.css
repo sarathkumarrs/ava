@@ -47,7 +47,7 @@ a {
 }
 
 #whoshould {
-  background-color: #4b97e5;
+  background-color: #4cb7b6;
   color: white;
 }
 
@@ -62,7 +62,7 @@ a {
 } */
 
 footer {
-  background-color: #4b97e5;
+  background-color: #4cb7b6;
   color: #fff;
   padding: 30px;
 }
@@ -110,4 +110,7 @@ footer ul li img {
   #contpriv li a {
     font-size: 13px;
   }
+}
+
+@media (max-width: 200px) {
 }
