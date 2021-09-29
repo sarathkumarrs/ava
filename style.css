@@ -111,3 +111,6 @@ footer ul li img {
     font-size: 13px;
   }
 }
+
+@media (max-width: 200px) {
+}
